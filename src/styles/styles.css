@@ -41,21 +41,30 @@
 
 .login {
     background-image: url("../images/ImagePrueba.jpg");
-    /* background-image: url("../images/iniciosesion.jpg"); */
     background-repeat: no-repeat;
     background-size: 100rem;
     background-position: center;
+    height: 91vh;
+    overflow: hidden;
 }
 /* CSS PAGINA LOGUP */
 
 .logup {
     background-image: url("../images/ImagenFormulario.jpg");
-    /* background-image: url("../images/ImagenPrincipal.jpg"); */
-    /* background-image: url("../images/gallinas.jpg"); */
     background-repeat: no-repeat;
     background-size: 100rem;
     background-position: center;
+    height: 91vh;
+    overflow: hidden;
 }
+
+.imageAdmin {
+    background-image: url("../images/ImagenPrincipal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 .abs-left {
     display: flex;
