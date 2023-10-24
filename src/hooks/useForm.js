@@ -25,7 +25,7 @@ const handleSubmit = async (e) => {
 
     // Realiza la solicitud POST utilizando fetch
     try {
-        const response = await fetch("/ruta-de-registro", {
+        const response = await fetch("http://localhost:3000/logup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
