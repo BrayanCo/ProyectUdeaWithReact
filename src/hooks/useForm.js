@@ -25,13 +25,13 @@ const handleSubmit = async (e) => {
 
     // Realiza la solicitud POST utilizando fetch
     try {
-        const response = await fetch("http://localhost:3000/logup", {
+        const response = await fetch("http://localhost:300/0logup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(data),
-        });
+        })
 
         if (response.ok) {
             // La solicitud se completó con éxito
@@ -50,4 +50,4 @@ function isValidEmail(email) {
     return emailRegex.test(email);
 }
 
-export {handleSubmit}
+export { handleSubmit }

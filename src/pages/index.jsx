@@ -1,7 +1,7 @@
 //Importaciones
 import imagenThree from "../images/imagenthree.jpg";
-import { About_Us } from "../footer/AboutUs";
-import { NavigationIndex } from "../nav/NavsOfPages";
+import { About_Us } from "../Components/AboutUs";
+import {NavigationIndex} from "../Components/NavsOfPages"
 import "../styles/styles.css";
 
 //Exportaciones

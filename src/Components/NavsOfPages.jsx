@@ -37,7 +37,7 @@ function NavigationIndex() {
                     </li>
                     <li className="nav-item">
                         <Link to="/logup">
-                            <a className="nav-link" href="Logup.jsx">
+                            <a className="nav-link">
                                 Logup
                             </a>
                         </Link>
@@ -103,7 +103,7 @@ function NavigationLoginAndLogup() {
                     </li>
                     <li className="nav-item">
                         <Link to="/logup">
-                            <a className="nav-link" href="Logup.jsx">
+                            <a className="nav-link">
                                 Logup
                             </a>
                         </Link>

@@ -1,5 +1,5 @@
-import { About_Us } from "../footer/AboutUs";
-import { NavigationAdmin } from "../nav/NavsOfPages";
+import { About_Us } from "../Components/AboutUs";
+import {NavigationAdmin} from "../Components/NavsOfPages"
 
 
 export const AdminApp = () => {

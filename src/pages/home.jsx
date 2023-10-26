@@ -1,6 +1,6 @@
-import { NavigationHome } from "../nav/NavsOfPages";
-import { About_Us } from "../footer/AboutUs";
-import { ShoppingCart } from "../Products/Products";
+import {NavigationHome} from "../Components/NavsOfPages"
+import { About_Us } from "../Components/AboutUs";
+import { ShoppingCart } from "../Components/Cart";
 
 export const HomeApp = () => {
     return (

@@ -1,5 +1,5 @@
 import { handleSubmit } from "../hooks/useForm";
-import { NavigationLoginAndLogup } from "../nav/NavsOfPages";
+import {NavigationLoginAndLogup} from "../Components/NavsOfPages"
 
 
 export const LogupApp = () => {
